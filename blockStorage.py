@@ -7,7 +7,8 @@ def calculate_storage(filesize):
         return 4096 * 2
     return 4096
 
-print(calculate_storage(1))    # Should be 4096
-print(calculate_storage(4096)) # Should be 4096
-print(calculate_storage(4097)) # Should be 8192
-print(calculate_storage(6000)) # Should be 8192
+print(calculate_storage(1))    
+print(calculate_storage(4096)) 
+print(calculate_storage(4097)) 
+
+print(calculate_storage(6000)) 
